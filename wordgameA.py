@@ -119,7 +119,7 @@ def dealHand(n):
     returns: dictionary (string -> int)
     """
 
-    if type(n) is not int raise exception
+    if type(n) is not int raise Exception
 
     hand={}
     numVowels = n / 3
